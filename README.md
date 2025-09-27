@@ -1,3 +1,5 @@
+Linkki raporttiin: https://app.powerbi.com/view?r=eyJrIjoiNDNhNWI1NWEtZmYxMC00Y2MyLWFlNDUtNTMyODg4ZTI5ZTM2IiwidCI6ImM4NTBmZTljLWI0NmMtNGIyZC1iODYzLTAxZmEyYTg5ODA2OCIsImMiOjh9
+
 Taustatiedot Älyä Korjaukseen - sovellukseen liittyen
 
 Älyä Korjaukseen - sovellus demonstroi mm. seuraavia asioita
