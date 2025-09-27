@@ -144,7 +144,7 @@ table F_Puhelimet
 		mode: import
 		source =
 				let
-				    Lähde = Excel.Workbook(File.Contents("C:\Users\Kalle\OneDrive\Työpöytä\Työt\POWERBI TYÖT\Työt SmartLeanille\puhelinkorjaus\DataPuhelimista.xlsx"), null, true),
+				    Lähde = Excel.Workbook(File.Contents("C:\Users\kkk27\OneDrive\Työpöytä\Työt\POWERBI TYÖT\Työt SmartLeanille\puhelinkorjaus\Right-To-Repair-projekti\DataPuhelimista.xlsx"), null, true),
 				    Table1_Table = Lähde{[Item="Table1",Kind="Table"]}[Data],
 				    #"Muutettu tyyppi" = Table.TransformColumnTypes(Table1_Table,{{"ID", Int64.Type}, {"Liike", type text}, {"Merkki", type text}, {"Malli", type text}, {"Merkki ja malli", type text}, {"Liike sekä merkki ja malli", type text}, {"Tuote", type text}, {"Korjauksenhinta€", type number}, {"Tuotehinta €", Int64.Type}, {"Puhelimenhinta €", Int64.Type}, {"Vakuutuksen kesto kk", Int64.Type}, {"Korjauksen kesto tunneissa", Int64.Type}, {"Alkuperäinen osa true/false", type logical}}),
 				    #"Poistettu sarakkeet" = Table.RemoveColumns(#"Muutettu tyyppi",{"Liike sekä merkki ja malli"}),

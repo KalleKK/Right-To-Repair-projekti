@@ -85,7 +85,7 @@ table D_Liike
 		mode: import
 		source =
 				let
-				    Lähde = Excel.Workbook(File.Contents("C:\Users\Kalle\OneDrive\Työpöytä\Työt\POWERBI TYÖT\Työt SmartLeanille\puhelinkorjaus\DataPuhelimista.xlsx"), null, true),
+				    Lähde = Excel.Workbook(File.Contents("C:\Users\kkk27\OneDrive\Työpöytä\Työt\POWERBI TYÖT\Työt SmartLeanille\puhelinkorjaus\Right-To-Repair-projekti\DataPuhelimista.xlsx"), null, true),
 				    Table6_Table = Lähde{[Item="Table6",Kind="Table"]}[Data],
 				    #"Muutettu tyyppi" = Table.TransformColumnTypes(Table6_Table,{{"Liike", type text}, {"Osoite", type text}, {"Postiosoite", Int64.Type}, {"Kaupunki", type text}, {"Verkkosivu", type text}, {"Latitude", type text}, {"Longitude", type text}}),
 				    #"Lisätty indeksi" = Table.AddIndexColumn(#"Muutettu tyyppi", "Indeksi", 1, 1, Int64.Type),
