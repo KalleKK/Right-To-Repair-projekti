@@ -1,0 +1,99 @@
+table D_Liike
+	lineageTag: d13740e0-7d50-493a-ab4a-ea82068238aa
+
+	column Indeksi
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 9ab71e88-ce53-44d4-806d-6c022b5f1c09
+		summarizeBy: none
+		sourceColumn: Indeksi
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Liike
+		dataType: string
+		lineageTag: a3d29a01-172a-4bda-ba46-464c3d61b4df
+		summarizeBy: none
+		sourceColumn: Liike
+
+		annotation SummarizationSetBy = Automatic
+
+	column Osoite
+		dataType: string
+		lineageTag: d7c5d912-eb3b-4e3c-b6f0-e9a82d5686d3
+		dataCategory: Address
+		summarizeBy: none
+		sourceColumn: Osoite
+
+		annotation SummarizationSetBy = Automatic
+
+	column Postiosoite
+		dataType: int64
+		formatString: 0
+		lineageTag: c05ee417-d787-439a-a084-c7a169b56b82
+		summarizeBy: sum
+		sourceColumn: Postiosoite
+
+		annotation SummarizationSetBy = Automatic
+
+	column Kaupunki
+		dataType: string
+		lineageTag: d2c7f8ab-8dd5-43b6-a15e-7dc4349a9a3d
+		dataCategory: City
+		summarizeBy: none
+		sourceColumn: Kaupunki
+
+		annotation SummarizationSetBy = Automatic
+
+	column Verkkosivu
+		dataType: string
+		lineageTag: 63fd1d90-bf49-4b51-909f-c32f6a4122e4
+		dataCategory: WebUrl
+		summarizeBy: none
+		sourceColumn: Verkkosivu
+
+		annotation SummarizationSetBy = Automatic
+
+	column Latitude
+		dataType: string
+		lineageTag: c7f9452e-ca7d-4597-8af9-a906596183d8
+		dataCategory: Latitude
+		summarizeBy: none
+		sourceColumn: Latitude
+
+		annotation SummarizationSetBy = Automatic
+
+	column Longitude
+		dataType: string
+		lineageTag: 9179b007-358d-4745-89fa-11b887f17718
+		dataCategory: Longitude
+		summarizeBy: none
+		sourceColumn: Longitude
+
+		annotation SummarizationSetBy = Automatic
+
+	column Pitkaosoite = D_Liike[Osoite] & " " & D_Liike[Postiosoite] & " " & D_Liike[Kaupunki]
+		lineageTag: 66efce9c-6da8-444c-b5e5-8f99135b5206
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	partition D_Liike = m
+		mode: import
+		source =
+				let
+				    Lähde = Excel.Workbook(File.Contents("C:\Users\Kalle\OneDrive\Työpöytä\Työt\POWERBI TYÖT\Työt SmartLeanille\puhelinkorjaus\DataPuhelimista.xlsx"), null, true),
+				    Table6_Table = Lähde{[Item="Table6",Kind="Table"]}[Data],
+				    #"Muutettu tyyppi" = Table.TransformColumnTypes(Table6_Table,{{"Liike", type text}, {"Osoite", type text}, {"Postiosoite", Int64.Type}, {"Kaupunki", type text}, {"Verkkosivu", type text}, {"Latitude", type text}, {"Longitude", type text}}),
+				    #"Lisätty indeksi" = Table.AddIndexColumn(#"Muutettu tyyppi", "Indeksi", 1, 1, Int64.Type),
+				    #"Sarakkeiden järjestystä muutettu" = Table.ReorderColumns(#"Lisätty indeksi",{"Indeksi", "Liike", "Osoite", "Postiosoite", "Kaupunki", "Verkkosivu", "Latitude", "Longitude"})
+				in
+				    #"Sarakkeiden järjestystä muutettu"
+
+	annotation PBI_NavigationStepName = Siirtyminen
+
+	annotation PBI_ResultType = Table
+

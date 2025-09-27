@@ -1,0 +1,24 @@
+table D_Osat
+	lineageTag: 3e830fe3-ec00-4ec3-8c62-a3aaad82f390
+
+	column Osa
+		dataType: string
+		lineageTag: 6a8290e5-ac97-4a1f-9a79-2c3d5a352307
+		summarizeBy: none
+		sourceColumn: Osa
+
+		annotation SummarizationSetBy = Automatic
+
+	partition D_Osat = m
+		mode: import
+		source =
+				let
+				    Lähde = Table.Combine({PuhelimetOsat, AlykelloOsat}),
+				    #"Poistettu kaksoiskappaleet" = Table.Distinct(Lähde)
+				in
+				    #"Poistettu kaksoiskappaleet"
+
+	annotation PBI_NavigationStepName = Siirtyminen
+
+	annotation PBI_ResultType = Table
+

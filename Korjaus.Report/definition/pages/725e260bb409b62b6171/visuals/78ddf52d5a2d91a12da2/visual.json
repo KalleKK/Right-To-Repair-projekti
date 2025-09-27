@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
+  "name": "78ddf52d5a2d91a12da2",
+  "position": {
+    "x": 23.999999999999996,
+    "y": 104,
+    "z": 1000,
+    "height": 312,
+    "width": 1224,
+    "tabOrder": 1000
+  },
+  "visualGroup": {
+    "displayName": "Kysymykset",
+    "groupMode": "ScaleMode"
+  }
+}

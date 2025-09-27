@@ -1,0 +1,125 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 1087.9999999999991,
+        "y": 5.9999999999999947
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 1091.6076165198706,
+            "y": 1244.3564910614311
+          },
+          "nodeIndex": "D_Liike",
+          "nodeLineageTag": "d13740e0-7d50-493a-ab4a-ea82068238aa",
+          "size": {
+            "height": 272,
+            "width": 262.02923410351514
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 1708.1363543654027,
+            "y": 386.0672654925408
+          },
+          "nodeIndex": "F_Alykellot",
+          "nodeLineageTag": "14f66c90-19ae-4fc4-9693-f8094bf2f01b",
+          "size": {
+            "height": 400.17439018477808,
+            "width": 264
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 390.12817037598126,
+            "y": 455.48903824762181
+          },
+          "nodeIndex": "F_Puhelimet",
+          "nodeLineageTag": "35666b7f-c8f5-4691-b5ec-a993473ec4a4",
+          "size": {
+            "height": 517.89717341954133,
+            "width": 249
+          },
+          "zIndex": 6
+        },
+        {
+          "location": {
+            "x": 1094.2982323816007,
+            "y": 1053.7013218973266
+          },
+          "nodeIndex": "D_Osat",
+          "nodeLineageTag": "3e830fe3-ec00-4ec3-8c62-a3aaad82f390",
+          "size": {
+            "height": 145,
+            "width": 249.69637109796827
+          },
+          "zIndex": 8
+        },
+        {
+          "location": {
+            "x": 2155.9922666254129,
+            "y": 5.9999999999999947
+          },
+          "nodeIndex": " Mittarit ",
+          "nodeLineageTag": "c150766b-60f1-4dee-be67-0e3fa55b4e93",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 7
+        },
+        {
+          "location": {
+            "x": 1106.5626714248551,
+            "y": 133.72864438463287
+          },
+          "nodeIndex": "D_Merkki",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 1108.8050101531364,
+            "y": 407.2939692349396
+          },
+          "nodeIndex": "D_Malli",
+          "nodeLineageTag": "1c15515a-99c6-47b4-86a0-4728c08b62f0",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 5
+        },
+        {
+          "location": {
+            "x": 1096.7743650662612,
+            "y": 751.250625297823
+          },
+          "nodeIndex": "D_KorjattavaTuote",
+          "nodeLineageTag": "e338f346-ac35-4a56-9d61-03ba78d8441f",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 1
+        }
+      ],
+      "name": "Kaikki taulukot",
+      "zoomValue": 100.00000000000009,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Kaikki taulukot",
+  "defaultDiagram": "Kaikki taulukot"
+}

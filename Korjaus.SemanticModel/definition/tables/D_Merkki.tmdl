@@ -1,0 +1,20 @@
+table D_Merkki
+	lineageTag: 7533244c-6056-443c-99b4-f945d86d6513
+
+	column Merkki
+		lineageTag: 50d0392d-931d-483a-9fc1-00ea041e9a6e
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: F_Alykellot[Merkki]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition D_Merkki = calculated
+		mode: import
+		source =
+				
+				
+				DISTINCT(UNION(DISTINCT(F_Alykellot[Merkki]), DISTINCT(F_Puhelimet[Merkki])))
+
+	annotation PBI_Id = 493b4d9ee60547019760fe10c76156fc
+

@@ -1,0 +1,20 @@
+table D_Malli
+	lineageTag: 1c15515a-99c6-47b4-86a0-4728c08b62f0
+
+	column 'Merkki ja malli'
+		lineageTag: b9484470-7923-4f3c-bcd3-1c8d33b9cc39
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: F_Alykellot[Merkki ja malli]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition D_Malli = calculated
+		mode: import
+		source =
+				
+				
+				DISTINCT(UNION(DISTINCT(F_Alykellot[Merkki ja malli]), DISTINCT(F_Puhelimet[Merkki ja malli])))
+
+	annotation PBI_Id = 79b61c083a3a45bbb185889f855c12a2
+

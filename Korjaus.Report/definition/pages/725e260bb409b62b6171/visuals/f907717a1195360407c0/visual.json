@@ -1,0 +1,53 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
+  "name": "f907717a1195360407c0",
+  "position": {
+    "x": 0,
+    "y": 0,
+    "z": 3000,
+    "height": 312,
+    "width": 288,
+    "tabOrder": 1000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "The main objective of the Circ@Home project is to promote urban circularity by helping households, municipalities and businesses to adopt sustainable practices and reduce their environmental impact in the Baltic Sea Region. The Circ@Home project is co-funded by the Interreg Baltic Sea Region Programme. You can click image to direct yourself to program website.",
+                    "textStyle": {
+                      "fontSize": "13.3333px",
+                      "color": "#000000"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Tavoite'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "parentGroupName": "78ddf52d5a2d91a12da2"
+}

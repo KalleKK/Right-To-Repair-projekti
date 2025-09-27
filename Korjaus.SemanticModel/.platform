@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Korjaus"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "689dadec-7b1a-4069-87b3-f2614080ce9e"
+  }
+}

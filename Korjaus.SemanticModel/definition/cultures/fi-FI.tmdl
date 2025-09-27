@@ -1,0 +1,4437 @@
+cultureInfo fi-FI
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "D_liike": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "D_Liike"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "D liike": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "D_Liike": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "D_liike.indeksi": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "D_Liike",
+			          "ConceptualProperty": "Indeksi"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "indeksi": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "D_liike.liike": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "D_Liike",
+			          "ConceptualProperty": "Liike"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "liike": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Yritys": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "D_liike.osoite": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "D_Liike",
+			          "ConceptualProperty": "Osoite"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "osoite": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "address": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Location"
+			    },
+			    "D_liike.postiosoite": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "D_Liike",
+			          "ConceptualProperty": "Postiosoite"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "postiosoite": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "D_liike.kaupunki": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "D_Liike",
+			          "ConceptualProperty": "Kaupunki"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "kaupunki": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "city": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Location"
+			    },
+			    "D_liike.verkkosivu": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "D_Liike",
+			          "ConceptualProperty": "Verkkosivu"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "verkkosivu": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "D_liike.latitude": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "D_Liike",
+			          "ConceptualProperty": "Latitude"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "latitude": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "leeway": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "freedom": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "autonomy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "liberty": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "opportunity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "room": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "scope": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "space": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "rope": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "Leveysaste": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "D_liike.longitude": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "D_Liike",
+			          "ConceptualProperty": "Longitude"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "longitude": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Pituusaste": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "F_puhelimet": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "F_Puhelimet"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "F puhelimet": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "F_Puhelimet": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "F_puhelimet.ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "F_Puhelimet",
+			          "ConceptualProperty": "ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "F_puhelimet.merkki": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "F_Puhelimet",
+			          "ConceptualProperty": "Merkki"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "merkki": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "F_puhelimet.malli": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "F_Puhelimet",
+			          "ConceptualProperty": "Malli"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "malli": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "F_puhelimet.merkki_ja_malli": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "F_Puhelimet",
+			          "ConceptualProperty": "Merkki ja malli"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "merkki ja malli": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "F_puhelimet.osa": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "F_Puhelimet",
+			          "ConceptualProperty": "Osa"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "osa": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "F_puhelimet.korjauksenhinta": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "F_Puhelimet",
+			          "ConceptualProperty": "Korjauksenhinta €"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "korjauksenhinta €": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "F_puhelimet.tuotehinta_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "F_Puhelimet",
+			          "ConceptualProperty": "Tuotehinta €"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tuotehinta €": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "F_puhelimet.puhelimenhinta_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "F_Puhelimet",
+			          "ConceptualProperty": "Puhelimenhinta €"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "puhelimenhinta €": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "F_puhelimet.vakuutuksen_kesto_kk": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "F_Puhelimet",
+			          "ConceptualProperty": "Vakuutuksen kesto kk"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "vakuutuksen kesto kk": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "F_puhelimet.korjauksen_kesto_tunneissa": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "F_Puhelimet",
+			          "ConceptualProperty": "Korjauksen kesto tunneissa"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "korjauksen kesto tunneissa": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "F_puhelimet.alkuperäinen_osa_true_false": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "F_Puhelimet",
+			          "ConceptualProperty": "Alkuperäinen osa true/false"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "alkuperäinen osa true/false": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "alkuperäinen osa true": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "alkuperäinen osa true false": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "false": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "F_puhelimet.liike_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "F_Puhelimet",
+			          "ConceptualProperty": "LiikeID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "liike ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "LiikeID": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "liike identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "liike identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "liike identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "liike credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "F_puhelimet.korjattava_tuote": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "F_Puhelimet",
+			          "ConceptualProperty": "KorjattavaTuote"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "korjattava tuote": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "KorjattavaTuote": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "F_alykellot": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "F_Alykellot"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "F alykellot": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "F_Alykellot": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "F_alykellot.ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "F_Alykellot",
+			          "ConceptualProperty": "ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "F_alykellot.merkki": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "F_Alykellot",
+			          "ConceptualProperty": "Merkki"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "merkki": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "F_alykellot.malli": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "F_Alykellot",
+			          "ConceptualProperty": "Malli"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "malli": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "F_alykellot.merkki_ja_malli": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "F_Alykellot",
+			          "ConceptualProperty": "Merkki ja malli"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "merkki ja malli": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "F_alykellot.osa": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "F_Alykellot",
+			          "ConceptualProperty": "Osa"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "osa": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "F_alykellot.korjauksenhinta_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "F_Alykellot",
+			          "ConceptualProperty": "Korjauksenhinta €"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "korjauksenhinta €": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "F_alykellot.tuotehinta_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "F_Alykellot",
+			          "ConceptualProperty": "Tuotehinta €"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tuotehinta €": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "F_alykellot.älykellonhinta_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "F_Alykellot",
+			          "ConceptualProperty": "Älykellonhinta €"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "älykellonhinta €": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "F_alykellot.vakuutuksen_kesto_kk": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "F_Alykellot",
+			          "ConceptualProperty": "Vakuutuksen kesto kk"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "vakuutuksen kesto kk": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "F_alykellot.korjauksen_kesto_tunneissa": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "F_Alykellot",
+			          "ConceptualProperty": "Korjauksen kesto tunneissa"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "korjauksen kesto tunneissa": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "F_alykellot.alkuperäinen_osa_true_false": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "F_Alykellot",
+			          "ConceptualProperty": "Alkuperäinen osa true/false"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "alkuperäinen osa true/false": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "alkuperäinen osa true": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "alkuperäinen osa true false": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "false": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "F_alykellot.liike_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "F_Alykellot",
+			          "ConceptualProperty": "LiikeID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "liike ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "LiikeID": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "liike identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "liike identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "liike identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "liike credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "F_alykellot.korjattava_tuote": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "F_Alykellot",
+			          "ConceptualProperty": "KorjattavaTuote"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "korjattava tuote": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "KorjattavaTuote": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "D_osat": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "D_Osat"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "D osat": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "D_Osat": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "D_osat.osa": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "D_Osat",
+			          "ConceptualProperty": "Osa"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "osa": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "mittarit": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": " Mittarit "
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mittarit": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "mittarit.value": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": " Mittarit ",
+			          "ConceptualProperty": "Value"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "value": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "importance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "significance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "usefulness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "consequence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "mittarit.osat_valittu_tarkistuts": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": " Mittarit ",
+			          "ConceptualProperty": "OsatValittuTarkistuts"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "osat valittu tarkistuts": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "OsatValittuTarkistuts": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "mittarit.merkki_valittu_tarkistus": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": " Mittarit ",
+			          "ConceptualProperty": "MerkkiValittuTarkistus"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "merkki valittu tarkistus": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "MerkkiValittuTarkistus": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "mittarit.malli_valittu_tarkistus": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": " Mittarit ",
+			          "ConceptualProperty": "MalliValittuTarkistus"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "malli valittu tarkistus": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "MalliValittuTarkistus": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "mittarit.korjattava_tuote_valittu_tarkistuts": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": " Mittarit ",
+			          "ConceptualProperty": "KorjattavaTuoteValittuTarkistuts"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "korjattava tuote valittu tarkistuts": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "KorjattavaTuoteValittuTarkistuts": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "D_merkki": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "D_Merkki"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "D merkki": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "D_Merkki": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "D_merkki.merkki": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "D_Merkki",
+			          "ConceptualProperty": "Merkki"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "merkki": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "D_malli": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "D_Malli"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "D malli": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "D_Malli": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "D_malli.merkki_ja_malli": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "D_Malli",
+			          "ConceptualProperty": "Merkki ja malli"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "merkki ja malli": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "D_korjattava_tuote": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "D_KorjattavaTuote"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "D korjattava tuote": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "D_KorjattavaTuote": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "D_korjattava_tuote.korjattava_tuote": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "D_KorjattavaTuote",
+			          "ConceptualProperty": "KorjattavaTuote"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "korjattava tuote": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "KorjattavaTuote": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "D_liike.pitkaosoite": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "D_Liike",
+			          "ConceptualProperty": "Pitkaosoite"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "pitkaosoite": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "mittarit.tuotteen_hinta": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": " Mittarit ",
+			          "ConceptualProperty": "TuotteenHinta"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tuotteen hinta": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "TuotteenHinta": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Tuotteen hinta uutena €": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "mittarit.korjauksen_hinta": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": " Mittarit ",
+			          "ConceptualProperty": "KorjauksenHinta"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "korjauksen hinta": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "KorjauksenHinta": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "mittarit.KorjauksenHintaTuotteesta": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": " Mittarit ",
+			          "ConceptualProperty": "KorjauksenHintaTuotteesta%"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "KorjauksenHintaTuotteesta%": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "korjauksenhintatuotteesta percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "korjauksenhintatuotteesta pct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "mittarit.vakuutuksen_kesto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": " Mittarit ",
+			          "ConceptualProperty": "VakuutuksenKesto"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "vakuutuksen kesto": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "VakuutuksenKesto": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Takuuajan kesto": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "mittarit.kaytetaanko_alkuperaisia_osia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": " Mittarit ",
+			          "ConceptualProperty": "KaytetaankoAlkuperaisiaOsia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "kaytetaanko alkuperaisia osia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "KaytetaankoAlkuperaisiaOsia": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Alkuperäinen varaosa": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "mittarit.korjauksen_hinta_tyhjat_arvot_pois": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": " Mittarit ",
+			          "ConceptualProperty": "KorjauksenHintaTyhjatArvotPois"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "korjauksen hinta tyhjat arvot pois": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "KorjauksenHintaTyhjatArvotPois": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Kokonaishinta": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "mittarit.onko_valittuja_riveja": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": " Mittarit ",
+			          "ConceptualProperty": "OnkoValittujaRiveja"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "onko valittuja riveja": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "OnkoValittujaRiveja": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "mittarit.kuinka_monelle_mallille_loytyy_korjauksen_hinta": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": " Mittarit ",
+			          "ConceptualProperty": "KuinkaMonelleMallilleLoytyyKorjauksenHinta"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "kuinka monelle mallille loytyy korjauksen hinta": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "KuinkaMonelleMallilleLoytyyKorjauksenHinta": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "mittarit.otsikko": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": " Mittarit ",
+			          "ConceptualProperty": "SivuOtsikko"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "sivu otsikko": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "SivuOtsikko": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "mittarit.valittu_liike": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": " Mittarit ",
+			          "ConceptualProperty": "Valittu liike"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "valittu liike": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "mittarit.korjauksen_kesto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": " Mittarit ",
+			          "ConceptualProperty": "KorjauksenKesto"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "korjauksen kesto": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "KorjauksenKesto": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "mittarit.osan_hinta": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": " Mittarit ",
+			          "ConceptualProperty": "OsanHinta"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "osan hinta": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "OsanHinta": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Varaosan KA-hinta": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "mittarit.taulun_otsikko": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": " Mittarit ",
+			          "ConceptualProperty": "TaulunOtsikko"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "taulun otsikko": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "TaulunOtsikko": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "mittarit.onko_riveja": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": " Mittarit ",
+			          "ConceptualProperty": "OnkoRiveja"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "onko riveja": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "OnkoRiveja": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "mittarit.onko_valittu_malli_tsekki": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": " Mittarit ",
+			          "ConceptualProperty": "OnkoValittuMalliTsekki"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "onko valittu malli tsekki": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "OnkoValittuMalliTsekki": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "F_puhelimet_has_D_korjattava_tuote": {
+			      "Binding": {
+			        "ConceptualEntity": "F_Puhelimet"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_puhelimet": {
+			          "Target": {
+			            "Entity": "F_puhelimet"
+			          }
+			        },
+			        "D_korjattava_tuote": {
+			          "Target": {
+			            "Entity": "D_korjattava_tuote"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_puhelimet"
+			            },
+			            "Object": {
+			              "Role": "D_korjattava_tuote"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_puhelimets_have_D_korjattava_tuotes"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "D_korjattava_tuote"
+			            },
+			            "Object": {
+			              "Role": "F_puhelimet"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "D_korjattava_tuotes_have_F_puhelimets"
+			        }
+			      ]
+			    },
+			    "F_puhelimet_has_D_merkki": {
+			      "Binding": {
+			        "ConceptualEntity": "F_Puhelimet"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_puhelimet": {
+			          "Target": {
+			            "Entity": "F_puhelimet"
+			          }
+			        },
+			        "D_merkki": {
+			          "Target": {
+			            "Entity": "D_merkki"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_puhelimet"
+			            },
+			            "Object": {
+			              "Role": "D_merkki"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_puhelimets_have_D_merkkis"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "D_merkki"
+			            },
+			            "Object": {
+			              "Role": "F_puhelimet"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "D_merkkis_have_F_puhelimets"
+			        }
+			      ]
+			    },
+			    "F_puhelimet_has_D_osat": {
+			      "Binding": {
+			        "ConceptualEntity": "F_Puhelimet"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_puhelimet": {
+			          "Target": {
+			            "Entity": "F_puhelimet"
+			          }
+			        },
+			        "D_osat": {
+			          "Target": {
+			            "Entity": "D_osat"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_puhelimet"
+			            },
+			            "Object": {
+			              "Role": "D_osat"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_puhelimets_have_D_osats"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "D_osat"
+			            },
+			            "Object": {
+			              "Role": "F_puhelimet"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "D_osats_have_F_puhelimets"
+			        }
+			      ]
+			    },
+			    "F_puhelimet_has_D_liike": {
+			      "Binding": {
+			        "ConceptualEntity": "F_Puhelimet"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_puhelimet": {
+			          "Target": {
+			            "Entity": "F_puhelimet"
+			          }
+			        },
+			        "D_liike": {
+			          "Target": {
+			            "Entity": "D_liike"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_puhelimet"
+			            },
+			            "Object": {
+			              "Role": "D_liike"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_puhelimets_have_D_liikes"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "D_liike"
+			            },
+			            "Object": {
+			              "Role": "F_puhelimet"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "D_liikes_have_F_puhelimets"
+			        }
+			      ]
+			    },
+			    "mittarit_has_onko_valittu_malli_tsekki": {
+			      "Binding": {
+			        "ConceptualEntity": " Mittarit "
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mittarit": {
+			          "Target": {
+			            "Entity": "mittarit"
+			          }
+			        },
+			        "mittarit.onko_valittu_malli_tsekki": {
+			          "Target": {
+			            "Entity": "mittarit.onko_valittu_malli_tsekki"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mittarit"
+			            },
+			            "Object": {
+			              "Role": "mittarit.onko_valittu_malli_tsekki"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mittarits_have_onko_valittu_malli_tsekki"
+			        }
+			      ]
+			    },
+			    "F_puhelimet_has_mittarit_onko_riveja": {
+			      "Binding": {
+			        "ConceptualEntity": "F_Puhelimet"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_puhelimet": {
+			          "Target": {
+			            "Entity": "F_puhelimet"
+			          }
+			        },
+			        "mittarit.onko_riveja": {
+			          "Target": {
+			            "Entity": "mittarit.onko_riveja"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_puhelimet"
+			            },
+			            "Object": {
+			              "Role": "mittarit.onko_riveja"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_puhelimets_have_onko_riveja"
+			        }
+			      ]
+			    },
+			    "F_alykellot_has_mittarit_onko_riveja": {
+			      "Binding": {
+			        "ConceptualEntity": "F_Alykellot"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_alykellot": {
+			          "Target": {
+			            "Entity": "F_alykellot"
+			          }
+			        },
+			        "mittarit.onko_riveja": {
+			          "Target": {
+			            "Entity": "mittarit.onko_riveja"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_alykellot"
+			            },
+			            "Object": {
+			              "Role": "mittarit.onko_riveja"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_alykellots_have_onko_riveja"
+			        }
+			      ]
+			    },
+			    "mittarit_has_taulun_otsikko": {
+			      "Binding": {
+			        "ConceptualEntity": " Mittarit "
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mittarit": {
+			          "Target": {
+			            "Entity": "mittarit"
+			          }
+			        },
+			        "mittarit.taulun_otsikko": {
+			          "Target": {
+			            "Entity": "mittarit.taulun_otsikko"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mittarit"
+			            },
+			            "Object": {
+			              "Role": "mittarit.taulun_otsikko"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mittarits_have_taulun_otsikko"
+			        }
+			      ]
+			    },
+			    "F_puhelimet_has_mittarit_osan_hinta": {
+			      "Binding": {
+			        "ConceptualEntity": "F_Puhelimet"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_puhelimet": {
+			          "Target": {
+			            "Entity": "F_puhelimet"
+			          }
+			        },
+			        "mittarit.osan_hinta": {
+			          "Target": {
+			            "Entity": "mittarit.osan_hinta"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_puhelimet"
+			            },
+			            "Object": {
+			              "Role": "mittarit.osan_hinta"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_puhelimets_have_osan_hinta"
+			        }
+			      ]
+			    },
+			    "F_alykellot_has_mittarit_osan_hinta": {
+			      "Binding": {
+			        "ConceptualEntity": "F_Alykellot"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_alykellot": {
+			          "Target": {
+			            "Entity": "F_alykellot"
+			          }
+			        },
+			        "mittarit.osan_hinta": {
+			          "Target": {
+			            "Entity": "mittarit.osan_hinta"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_alykellot"
+			            },
+			            "Object": {
+			              "Role": "mittarit.osan_hinta"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_alykellots_have_osan_hinta"
+			        }
+			      ]
+			    },
+			    "mittarit_has_korjauksen_kesto": {
+			      "Binding": {
+			        "ConceptualEntity": " Mittarit "
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mittarit": {
+			          "Target": {
+			            "Entity": "mittarit"
+			          }
+			        },
+			        "mittarit.korjauksen_kesto": {
+			          "Target": {
+			            "Entity": "mittarit.korjauksen_kesto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mittarit"
+			            },
+			            "Object": {
+			              "Role": "mittarit.korjauksen_kesto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mittarits_have_korjauksen_kesto"
+			        }
+			      ]
+			    },
+			    "mittarit_has_valittu_liike": {
+			      "Binding": {
+			        "ConceptualEntity": " Mittarit "
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mittarit": {
+			          "Target": {
+			            "Entity": "mittarit"
+			          }
+			        },
+			        "mittarit.valittu_liike": {
+			          "Target": {
+			            "Entity": "mittarit.valittu_liike"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mittarit"
+			            },
+			            "Object": {
+			              "Role": "mittarit.valittu_liike"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mittarits_have_valittu_liike"
+			        }
+			      ]
+			    },
+			    "mittarit_has_otsikko": {
+			      "Binding": {
+			        "ConceptualEntity": " Mittarit "
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mittarit": {
+			          "Target": {
+			            "Entity": "mittarit"
+			          }
+			        },
+			        "mittarit.otsikko": {
+			          "Target": {
+			            "Entity": "mittarit.otsikko"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mittarit"
+			            },
+			            "Object": {
+			              "Role": "mittarit.otsikko"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mittarits_have_sivu_otsikko"
+			        }
+			      ]
+			    },
+			    "F_puhelimet_has_mittarit_kuinka_monelle_mallille_loytyy_korjauksen_hinta": {
+			      "Binding": {
+			        "ConceptualEntity": "F_Puhelimet"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_puhelimet": {
+			          "Target": {
+			            "Entity": "F_puhelimet"
+			          }
+			        },
+			        "mittarit.kuinka_monelle_mallille_loytyy_korjauksen_hinta": {
+			          "Target": {
+			            "Entity": "mittarit.kuinka_monelle_mallille_loytyy_korjauksen_hinta"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_puhelimet"
+			            },
+			            "Object": {
+			              "Role": "mittarit.kuinka_monelle_mallille_loytyy_korjauksen_hinta"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_puhelimets_have_kuinka_monelle_mallille_loytyy_korjauksen_hinta"
+			        }
+			      ]
+			    },
+			    "F_alykellot_has_mittarit_kuinka_monelle_mallille_loytyy_korjauksen_hinta": {
+			      "Binding": {
+			        "ConceptualEntity": "F_Alykellot"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_alykellot": {
+			          "Target": {
+			            "Entity": "F_alykellot"
+			          }
+			        },
+			        "mittarit.kuinka_monelle_mallille_loytyy_korjauksen_hinta": {
+			          "Target": {
+			            "Entity": "mittarit.kuinka_monelle_mallille_loytyy_korjauksen_hinta"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_alykellot"
+			            },
+			            "Object": {
+			              "Role": "mittarit.kuinka_monelle_mallille_loytyy_korjauksen_hinta"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_alykellots_have_kuinka_monelle_mallille_loytyy_korjauksen_hinta"
+			        }
+			      ]
+			    },
+			    "F_puhelimet_has_mittarit_onko_valittuja_riveja": {
+			      "Binding": {
+			        "ConceptualEntity": "F_Puhelimet"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_puhelimet": {
+			          "Target": {
+			            "Entity": "F_puhelimet"
+			          }
+			        },
+			        "mittarit.onko_valittuja_riveja": {
+			          "Target": {
+			            "Entity": "mittarit.onko_valittuja_riveja"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_puhelimet"
+			            },
+			            "Object": {
+			              "Role": "mittarit.onko_valittuja_riveja"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_puhelimets_have_onko_valittuja_riveja"
+			        }
+			      ]
+			    },
+			    "F_alykellot_has_mittarit_onko_valittuja_riveja": {
+			      "Binding": {
+			        "ConceptualEntity": "F_Alykellot"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_alykellot": {
+			          "Target": {
+			            "Entity": "F_alykellot"
+			          }
+			        },
+			        "mittarit.onko_valittuja_riveja": {
+			          "Target": {
+			            "Entity": "mittarit.onko_valittuja_riveja"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_alykellot"
+			            },
+			            "Object": {
+			              "Role": "mittarit.onko_valittuja_riveja"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_alykellots_have_onko_valittuja_riveja"
+			        }
+			      ]
+			    },
+			    "mittarit_has_korjauksen_hinta_tyhjat_arvot_pois": {
+			      "Binding": {
+			        "ConceptualEntity": " Mittarit "
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mittarit": {
+			          "Target": {
+			            "Entity": "mittarit"
+			          }
+			        },
+			        "mittarit.korjauksen_hinta_tyhjat_arvot_pois": {
+			          "Target": {
+			            "Entity": "mittarit.korjauksen_hinta_tyhjat_arvot_pois"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mittarit"
+			            },
+			            "Object": {
+			              "Role": "mittarit.korjauksen_hinta_tyhjat_arvot_pois"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mittarits_have_korjauksen_hinta_tyhjat_arvot_pois"
+			        }
+			      ]
+			    },
+			    "mittarit_has_kaytetaanko_alkuperaisia_osia": {
+			      "Binding": {
+			        "ConceptualEntity": " Mittarit "
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mittarit": {
+			          "Target": {
+			            "Entity": "mittarit"
+			          }
+			        },
+			        "mittarit.kaytetaanko_alkuperaisia_osia": {
+			          "Target": {
+			            "Entity": "mittarit.kaytetaanko_alkuperaisia_osia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mittarit"
+			            },
+			            "Object": {
+			              "Role": "mittarit.kaytetaanko_alkuperaisia_osia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mittarits_have_kaytetaanko_alkuperaisia_osia"
+			        }
+			      ]
+			    },
+			    "mittarit_has_vakuutuksen_kesto": {
+			      "Binding": {
+			        "ConceptualEntity": " Mittarit "
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mittarit": {
+			          "Target": {
+			            "Entity": "mittarit"
+			          }
+			        },
+			        "mittarit.vakuutuksen_kesto": {
+			          "Target": {
+			            "Entity": "mittarit.vakuutuksen_kesto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mittarit"
+			            },
+			            "Object": {
+			              "Role": "mittarit.vakuutuksen_kesto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mittarits_have_vakuutuksen_kesto"
+			        }
+			      ]
+			    },
+			    "F_puhelimet_has_mittarit_KorjauksenHintaTuotteesta": {
+			      "Binding": {
+			        "ConceptualEntity": "F_Puhelimet"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_puhelimet": {
+			          "Target": {
+			            "Entity": "F_puhelimet"
+			          }
+			        },
+			        "mittarit.KorjauksenHintaTuotteesta": {
+			          "Target": {
+			            "Entity": "mittarit.KorjauksenHintaTuotteesta"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_puhelimet"
+			            },
+			            "Object": {
+			              "Role": "mittarit.KorjauksenHintaTuotteesta"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_puhelimets_have_KorjauksenHintaTuotteesta"
+			        }
+			      ]
+			    },
+			    "F_alykellot_has_mittarit_KorjauksenHintaTuotteesta": {
+			      "Binding": {
+			        "ConceptualEntity": "F_Alykellot"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_alykellot": {
+			          "Target": {
+			            "Entity": "F_alykellot"
+			          }
+			        },
+			        "mittarit.KorjauksenHintaTuotteesta": {
+			          "Target": {
+			            "Entity": "mittarit.KorjauksenHintaTuotteesta"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_alykellot"
+			            },
+			            "Object": {
+			              "Role": "mittarit.KorjauksenHintaTuotteesta"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_alykellots_have_KorjauksenHintaTuotteesta"
+			        }
+			      ]
+			    },
+			    "F_puhelimet_has_mittarit_korjauksen_hinta": {
+			      "Binding": {
+			        "ConceptualEntity": "F_Puhelimet"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_puhelimet": {
+			          "Target": {
+			            "Entity": "F_puhelimet"
+			          }
+			        },
+			        "mittarit.korjauksen_hinta": {
+			          "Target": {
+			            "Entity": "mittarit.korjauksen_hinta"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_puhelimet"
+			            },
+			            "Object": {
+			              "Role": "mittarit.korjauksen_hinta"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_puhelimets_have_korjauksen_hinta"
+			        }
+			      ]
+			    },
+			    "F_alykellot_has_mittarit_korjauksen_hinta": {
+			      "Binding": {
+			        "ConceptualEntity": "F_Alykellot"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_alykellot": {
+			          "Target": {
+			            "Entity": "F_alykellot"
+			          }
+			        },
+			        "mittarit.korjauksen_hinta": {
+			          "Target": {
+			            "Entity": "mittarit.korjauksen_hinta"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_alykellot"
+			            },
+			            "Object": {
+			              "Role": "mittarit.korjauksen_hinta"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_alykellots_have_korjauksen_hinta"
+			        }
+			      ]
+			    },
+			    "F_puhelimet_has_mittarit_tuotteen_hinta": {
+			      "Binding": {
+			        "ConceptualEntity": "F_Puhelimet"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_puhelimet": {
+			          "Target": {
+			            "Entity": "F_puhelimet"
+			          }
+			        },
+			        "mittarit.tuotteen_hinta": {
+			          "Target": {
+			            "Entity": "mittarit.tuotteen_hinta"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_puhelimet"
+			            },
+			            "Object": {
+			              "Role": "mittarit.tuotteen_hinta"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_puhelimets_have_tuotteen_hinta"
+			        }
+			      ]
+			    },
+			    "F_alykellot_has_mittarit_tuotteen_hinta": {
+			      "Binding": {
+			        "ConceptualEntity": "F_Alykellot"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_alykellot": {
+			          "Target": {
+			            "Entity": "F_alykellot"
+			          }
+			        },
+			        "mittarit.tuotteen_hinta": {
+			          "Target": {
+			            "Entity": "mittarit.tuotteen_hinta"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_alykellot"
+			            },
+			            "Object": {
+			              "Role": "mittarit.tuotteen_hinta"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_alykellots_have_tuotteen_hinta"
+			        }
+			      ]
+			    },
+			    "D_liike_has_pitkaosoite": {
+			      "Binding": {
+			        "ConceptualEntity": "D_Liike"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "D_liike": {
+			          "Target": {
+			            "Entity": "D_liike"
+			          }
+			        },
+			        "D_liike.pitkaosoite": {
+			          "Target": {
+			            "Entity": "D_liike.pitkaosoite"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "D_liike"
+			            },
+			            "Object": {
+			              "Role": "D_liike.pitkaosoite"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "D_liikes_have_pitkaosoites"
+			        }
+			      ]
+			    },
+			    "D_korjattava_tuote_has_korjattava_tuote": {
+			      "Binding": {
+			        "ConceptualEntity": "D_KorjattavaTuote"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "D_korjattava_tuote": {
+			          "Target": {
+			            "Entity": "D_korjattava_tuote"
+			          }
+			        },
+			        "D_korjattava_tuote.korjattava_tuote": {
+			          "Target": {
+			            "Entity": "D_korjattava_tuote.korjattava_tuote"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "D_korjattava_tuote"
+			            },
+			            "Object": {
+			              "Role": "D_korjattava_tuote.korjattava_tuote"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "D_korjattava_tuotes_have_korjattava_tuotes"
+			        }
+			      ]
+			    },
+			    "D_malli_has_merkki_ja_malli": {
+			      "Binding": {
+			        "ConceptualEntity": "D_Malli"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "D_malli": {
+			          "Target": {
+			            "Entity": "D_malli"
+			          }
+			        },
+			        "D_malli.merkki_ja_malli": {
+			          "Target": {
+			            "Entity": "D_malli.merkki_ja_malli"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "D_malli"
+			            },
+			            "Object": {
+			              "Role": "D_malli.merkki_ja_malli"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "D_mallis_have_merkki_ja_mallis"
+			        }
+			      ]
+			    },
+			    "D_merkki_has_merkki": {
+			      "Binding": {
+			        "ConceptualEntity": "D_Merkki"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "D_merkki": {
+			          "Target": {
+			            "Entity": "D_merkki"
+			          }
+			        },
+			        "D_merkki.merkki": {
+			          "Target": {
+			            "Entity": "D_merkki.merkki"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "D_merkki"
+			            },
+			            "Object": {
+			              "Role": "D_merkki.merkki"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "D_merkkis_have_merkkis"
+			        }
+			      ]
+			    },
+			    "F_puhelimet_has_mittarit_korjattava_tuote_valittu_tarkistuts": {
+			      "Binding": {
+			        "ConceptualEntity": "F_Puhelimet"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_puhelimet": {
+			          "Target": {
+			            "Entity": "F_puhelimet"
+			          }
+			        },
+			        "mittarit.korjattava_tuote_valittu_tarkistuts": {
+			          "Target": {
+			            "Entity": "mittarit.korjattava_tuote_valittu_tarkistuts"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_puhelimet"
+			            },
+			            "Object": {
+			              "Role": "mittarit.korjattava_tuote_valittu_tarkistuts"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_puhelimets_have_korjattava_tuote_valittu_tarkistuts"
+			        }
+			      ]
+			    },
+			    "F_alykellot_has_mittarit_korjattava_tuote_valittu_tarkistuts": {
+			      "Binding": {
+			        "ConceptualEntity": "F_Alykellot"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_alykellot": {
+			          "Target": {
+			            "Entity": "F_alykellot"
+			          }
+			        },
+			        "mittarit.korjattava_tuote_valittu_tarkistuts": {
+			          "Target": {
+			            "Entity": "mittarit.korjattava_tuote_valittu_tarkistuts"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_alykellot"
+			            },
+			            "Object": {
+			              "Role": "mittarit.korjattava_tuote_valittu_tarkistuts"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_alykellots_have_korjattava_tuote_valittu_tarkistuts"
+			        }
+			      ]
+			    },
+			    "F_puhelimet_has_mittarit_malli_valittu_tarkistus": {
+			      "Binding": {
+			        "ConceptualEntity": "F_Puhelimet"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_puhelimet": {
+			          "Target": {
+			            "Entity": "F_puhelimet"
+			          }
+			        },
+			        "mittarit.malli_valittu_tarkistus": {
+			          "Target": {
+			            "Entity": "mittarit.malli_valittu_tarkistus"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_puhelimet"
+			            },
+			            "Object": {
+			              "Role": "mittarit.malli_valittu_tarkistus"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_puhelimets_have_malli_valittu_tarkistus"
+			        }
+			      ]
+			    },
+			    "F_alykellot_has_mittarit_malli_valittu_tarkistus": {
+			      "Binding": {
+			        "ConceptualEntity": "F_Alykellot"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_alykellot": {
+			          "Target": {
+			            "Entity": "F_alykellot"
+			          }
+			        },
+			        "mittarit.malli_valittu_tarkistus": {
+			          "Target": {
+			            "Entity": "mittarit.malli_valittu_tarkistus"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_alykellot"
+			            },
+			            "Object": {
+			              "Role": "mittarit.malli_valittu_tarkistus"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_alykellots_have_malli_valittu_tarkistus"
+			        }
+			      ]
+			    },
+			    "F_puhelimet_has_mittarit_merkki_valittu_tarkistus": {
+			      "Binding": {
+			        "ConceptualEntity": "F_Puhelimet"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_puhelimet": {
+			          "Target": {
+			            "Entity": "F_puhelimet"
+			          }
+			        },
+			        "mittarit.merkki_valittu_tarkistus": {
+			          "Target": {
+			            "Entity": "mittarit.merkki_valittu_tarkistus"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_puhelimet"
+			            },
+			            "Object": {
+			              "Role": "mittarit.merkki_valittu_tarkistus"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_puhelimets_have_merkki_valittu_tarkistus"
+			        }
+			      ]
+			    },
+			    "F_alykellot_has_mittarit_merkki_valittu_tarkistus": {
+			      "Binding": {
+			        "ConceptualEntity": "F_Alykellot"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_alykellot": {
+			          "Target": {
+			            "Entity": "F_alykellot"
+			          }
+			        },
+			        "mittarit.merkki_valittu_tarkistus": {
+			          "Target": {
+			            "Entity": "mittarit.merkki_valittu_tarkistus"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_alykellot"
+			            },
+			            "Object": {
+			              "Role": "mittarit.merkki_valittu_tarkistus"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_alykellots_have_merkki_valittu_tarkistus"
+			        }
+			      ]
+			    },
+			    "F_puhelimet_has_mittarit_osat_valittu_tarkistuts": {
+			      "Binding": {
+			        "ConceptualEntity": "F_Puhelimet"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_puhelimet": {
+			          "Target": {
+			            "Entity": "F_puhelimet"
+			          }
+			        },
+			        "mittarit.osat_valittu_tarkistuts": {
+			          "Target": {
+			            "Entity": "mittarit.osat_valittu_tarkistuts"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_puhelimet"
+			            },
+			            "Object": {
+			              "Role": "mittarit.osat_valittu_tarkistuts"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_puhelimets_have_osat_valittu_tarkistuts"
+			        }
+			      ]
+			    },
+			    "F_alykellot_has_mittarit_osat_valittu_tarkistuts": {
+			      "Binding": {
+			        "ConceptualEntity": "F_Alykellot"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_alykellot": {
+			          "Target": {
+			            "Entity": "F_alykellot"
+			          }
+			        },
+			        "mittarit.osat_valittu_tarkistuts": {
+			          "Target": {
+			            "Entity": "mittarit.osat_valittu_tarkistuts"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_alykellot"
+			            },
+			            "Object": {
+			              "Role": "mittarit.osat_valittu_tarkistuts"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_alykellots_have_osat_valittu_tarkistuts"
+			        }
+			      ]
+			    },
+			    "D_osat_has_osa": {
+			      "Binding": {
+			        "ConceptualEntity": "D_Osat"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "D_osat": {
+			          "Target": {
+			            "Entity": "D_osat"
+			          }
+			        },
+			        "D_osat.osa": {
+			          "Target": {
+			            "Entity": "D_osat.osa"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "D_osat"
+			            },
+			            "Object": {
+			              "Role": "D_osat.osa"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "D_osats_have_osas"
+			        }
+			      ]
+			    },
+			    "F_alykellot_has_alkuperäinen_osa_true_false": {
+			      "Binding": {
+			        "ConceptualEntity": "F_Alykellot"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_alykellot": {
+			          "Target": {
+			            "Entity": "F_alykellot"
+			          }
+			        },
+			        "F_alykellot.alkuperäinen_osa_true_false": {
+			          "Target": {
+			            "Entity": "F_alykellot.alkuperäinen_osa_true_false"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_alykellot"
+			            },
+			            "Object": {
+			              "Role": "F_alykellot.alkuperäinen_osa_true_false"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_alykellots_have_alkuperäinen_osa_true_false"
+			        }
+			      ]
+			    },
+			    "F_alykellot_has_korjauksen_kesto_tunneissa": {
+			      "Binding": {
+			        "ConceptualEntity": "F_Alykellot"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_alykellot": {
+			          "Target": {
+			            "Entity": "F_alykellot"
+			          }
+			        },
+			        "F_alykellot.korjauksen_kesto_tunneissa": {
+			          "Target": {
+			            "Entity": "F_alykellot.korjauksen_kesto_tunneissa"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_alykellot"
+			            },
+			            "Object": {
+			              "Role": "F_alykellot.korjauksen_kesto_tunneissa"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_alykellots_have_korjauksen_kesto_tunneissas"
+			        }
+			      ]
+			    },
+			    "F_alykellot_has_vakuutuksen_kesto_kk": {
+			      "Binding": {
+			        "ConceptualEntity": "F_Alykellot"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_alykellot": {
+			          "Target": {
+			            "Entity": "F_alykellot"
+			          }
+			        },
+			        "F_alykellot.vakuutuksen_kesto_kk": {
+			          "Target": {
+			            "Entity": "F_alykellot.vakuutuksen_kesto_kk"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_alykellot"
+			            },
+			            "Object": {
+			              "Role": "F_alykellot.vakuutuksen_kesto_kk"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_alykellots_have_vakuutuksen_kesto_kks"
+			        }
+			      ]
+			    },
+			    "F_alykellot_has_älykellonhinta_": {
+			      "Binding": {
+			        "ConceptualEntity": "F_Alykellot"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_alykellot": {
+			          "Target": {
+			            "Entity": "F_alykellot"
+			          }
+			        },
+			        "F_alykellot.älykellonhinta_": {
+			          "Target": {
+			            "Entity": "F_alykellot.älykellonhinta_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_alykellot"
+			            },
+			            "Object": {
+			              "Role": "F_alykellot.älykellonhinta_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_alykellots_have_älykellonhinta_"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "F_alykellot"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "F_alykellot.älykellonhinta_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "älykellonhinta__indicates_how_expensive_F_alykellots_are"
+			        }
+			      ]
+			    },
+			    "F_alykellot_has_tuotehinta_": {
+			      "Binding": {
+			        "ConceptualEntity": "F_Alykellot"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_alykellot": {
+			          "Target": {
+			            "Entity": "F_alykellot"
+			          }
+			        },
+			        "F_alykellot.tuotehinta_": {
+			          "Target": {
+			            "Entity": "F_alykellot.tuotehinta_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_alykellot"
+			            },
+			            "Object": {
+			              "Role": "F_alykellot.tuotehinta_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_alykellots_have_tuotehinta_"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "F_alykellot"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "F_alykellot.tuotehinta_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tuotehinta__indicates_how_expensive_F_alykellots_are"
+			        }
+			      ]
+			    },
+			    "F_alykellot_has_korjauksenhinta_": {
+			      "Binding": {
+			        "ConceptualEntity": "F_Alykellot"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_alykellot": {
+			          "Target": {
+			            "Entity": "F_alykellot"
+			          }
+			        },
+			        "F_alykellot.korjauksenhinta_": {
+			          "Target": {
+			            "Entity": "F_alykellot.korjauksenhinta_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_alykellot"
+			            },
+			            "Object": {
+			              "Role": "F_alykellot.korjauksenhinta_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_alykellots_have_korjauksenhinta_"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "F_alykellot"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "F_alykellot.korjauksenhinta_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "korjauksenhinta__indicates_how_expensive_F_alykellots_are"
+			        }
+			      ]
+			    },
+			    "F_puhelimet_has_alkuperäinen_osa_true_false": {
+			      "Binding": {
+			        "ConceptualEntity": "F_Puhelimet"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_puhelimet": {
+			          "Target": {
+			            "Entity": "F_puhelimet"
+			          }
+			        },
+			        "F_puhelimet.alkuperäinen_osa_true_false": {
+			          "Target": {
+			            "Entity": "F_puhelimet.alkuperäinen_osa_true_false"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_puhelimet"
+			            },
+			            "Object": {
+			              "Role": "F_puhelimet.alkuperäinen_osa_true_false"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_puhelimets_have_alkuperäinen_osa_true_false"
+			        }
+			      ]
+			    },
+			    "F_puhelimet_has_korjauksen_kesto_tunneissa": {
+			      "Binding": {
+			        "ConceptualEntity": "F_Puhelimet"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_puhelimet": {
+			          "Target": {
+			            "Entity": "F_puhelimet"
+			          }
+			        },
+			        "F_puhelimet.korjauksen_kesto_tunneissa": {
+			          "Target": {
+			            "Entity": "F_puhelimet.korjauksen_kesto_tunneissa"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_puhelimet"
+			            },
+			            "Object": {
+			              "Role": "F_puhelimet.korjauksen_kesto_tunneissa"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_puhelimets_have_korjauksen_kesto_tunneissas"
+			        }
+			      ]
+			    },
+			    "F_puhelimet_has_vakuutuksen_kesto_kk": {
+			      "Binding": {
+			        "ConceptualEntity": "F_Puhelimet"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_puhelimet": {
+			          "Target": {
+			            "Entity": "F_puhelimet"
+			          }
+			        },
+			        "F_puhelimet.vakuutuksen_kesto_kk": {
+			          "Target": {
+			            "Entity": "F_puhelimet.vakuutuksen_kesto_kk"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_puhelimet"
+			            },
+			            "Object": {
+			              "Role": "F_puhelimet.vakuutuksen_kesto_kk"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_puhelimets_have_vakuutuksen_kesto_kks"
+			        }
+			      ]
+			    },
+			    "F_puhelimet_has_puhelimenhinta_": {
+			      "Binding": {
+			        "ConceptualEntity": "F_Puhelimet"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_puhelimet": {
+			          "Target": {
+			            "Entity": "F_puhelimet"
+			          }
+			        },
+			        "F_puhelimet.puhelimenhinta_": {
+			          "Target": {
+			            "Entity": "F_puhelimet.puhelimenhinta_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_puhelimet"
+			            },
+			            "Object": {
+			              "Role": "F_puhelimet.puhelimenhinta_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_puhelimets_have_puhelimenhinta_"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "F_puhelimet"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "F_puhelimet.puhelimenhinta_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "puhelimenhinta__indicates_how_expensive_F_puhelimets_are"
+			        }
+			      ]
+			    },
+			    "F_puhelimet_has_tuotehinta_": {
+			      "Binding": {
+			        "ConceptualEntity": "F_Puhelimet"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_puhelimet": {
+			          "Target": {
+			            "Entity": "F_puhelimet"
+			          }
+			        },
+			        "F_puhelimet.tuotehinta_": {
+			          "Target": {
+			            "Entity": "F_puhelimet.tuotehinta_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_puhelimet"
+			            },
+			            "Object": {
+			              "Role": "F_puhelimet.tuotehinta_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_puhelimets_have_tuotehinta_"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "F_puhelimet"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "F_puhelimet.tuotehinta_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tuotehinta__indicates_how_expensive_F_puhelimets_are"
+			        }
+			      ]
+			    },
+			    "F_puhelimet_has_korjauksenhinta": {
+			      "Binding": {
+			        "ConceptualEntity": "F_Puhelimet"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_puhelimet": {
+			          "Target": {
+			            "Entity": "F_puhelimet"
+			          }
+			        },
+			        "F_puhelimet.korjauksenhinta": {
+			          "Target": {
+			            "Entity": "F_puhelimet.korjauksenhinta"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_puhelimet"
+			            },
+			            "Object": {
+			              "Role": "F_puhelimet.korjauksenhinta"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_puhelimets_have_korjauksenhinta_"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "F_puhelimet"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "F_puhelimet.korjauksenhinta"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "korjauksenhinta__indicates_how_expensive_F_puhelimets_are"
+			        }
+			      ]
+			    },
+			    "D_liike_has_longitude": {
+			      "Binding": {
+			        "ConceptualEntity": "D_Liike"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "D_liike": {
+			          "Target": {
+			            "Entity": "D_liike"
+			          }
+			        },
+			        "D_liike.longitude": {
+			          "Target": {
+			            "Entity": "D_liike.longitude"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "D_liike"
+			            },
+			            "Object": {
+			              "Role": "D_liike.longitude"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "D_liikes_have_longitudes"
+			        }
+			      ]
+			    },
+			    "D_liike_has_latitude": {
+			      "Binding": {
+			        "ConceptualEntity": "D_Liike"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "D_liike": {
+			          "Target": {
+			            "Entity": "D_liike"
+			          }
+			        },
+			        "D_liike.latitude": {
+			          "Target": {
+			            "Entity": "D_liike.latitude"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "D_liike"
+			            },
+			            "Object": {
+			              "Role": "D_liike.latitude"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "D_liikes_have_latitudes"
+			        }
+			      ]
+			    },
+			    "D_liike_has_verkkosivu": {
+			      "Binding": {
+			        "ConceptualEntity": "D_Liike"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "D_liike": {
+			          "Target": {
+			            "Entity": "D_liike"
+			          }
+			        },
+			        "D_liike.verkkosivu": {
+			          "Target": {
+			            "Entity": "D_liike.verkkosivu"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "D_liike"
+			            },
+			            "Object": {
+			              "Role": "D_liike.verkkosivu"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "D_liikes_have_verkkosivus"
+			        }
+			      ]
+			    },
+			    "D_liike_has_kaupunki": {
+			      "Binding": {
+			        "ConceptualEntity": "D_Liike"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "D_liike": {
+			          "Target": {
+			            "Entity": "D_liike"
+			          }
+			        },
+			        "D_liike.kaupunki": {
+			          "Target": {
+			            "Entity": "D_liike.kaupunki"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "D_liike"
+			            },
+			            "Object": {
+			              "Role": "D_liike.kaupunki"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "D_liikes_have_kaupunkis"
+			        }
+			      ]
+			    },
+			    "D_liike_has_postiosoite": {
+			      "Binding": {
+			        "ConceptualEntity": "D_Liike"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "D_liike": {
+			          "Target": {
+			            "Entity": "D_liike"
+			          }
+			        },
+			        "D_liike.postiosoite": {
+			          "Target": {
+			            "Entity": "D_liike.postiosoite"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "D_liike"
+			            },
+			            "Object": {
+			              "Role": "D_liike.postiosoite"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "D_liikes_have_postiosoites"
+			        }
+			      ]
+			    },
+			    "D_liike_has_osoite": {
+			      "Binding": {
+			        "ConceptualEntity": "D_Liike"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "D_liike": {
+			          "Target": {
+			            "Entity": "D_liike"
+			          }
+			        },
+			        "D_liike.osoite": {
+			          "Target": {
+			            "Entity": "D_liike.osoite"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "D_liike"
+			            },
+			            "Object": {
+			              "Role": "D_liike.osoite"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "D_liikes_have_osoites"
+			        }
+			      ]
+			    },
+			    "D_liike_has_liike": {
+			      "Binding": {
+			        "ConceptualEntity": "D_Liike"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "D_liike": {
+			          "Target": {
+			            "Entity": "D_liike"
+			          }
+			        },
+			        "D_liike.liike": {
+			          "Target": {
+			            "Entity": "D_liike.liike"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "D_liike"
+			            },
+			            "Object": {
+			              "Role": "D_liike.liike"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "D_liikes_have_liikes"
+			        }
+			      ]
+			    },
+			    "D_liike_in_kaupunki": {
+			      "Binding": {
+			        "ConceptualEntity": "D_Liike"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "D_liike": {
+			          "Target": {
+			            "Entity": "D_liike"
+			          }
+			        },
+			        "D_liike.kaupunki": {
+			          "Target": {
+			            "Entity": "D_liike.kaupunki"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "D_liike.kaupunki"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "D_liike"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "D_liike.kaupunki"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "D_liikes_are_in_kaupunkis"
+			        }
+			      ]
+			    },
+			    "D_liike_in_osoite": {
+			      "Binding": {
+			        "ConceptualEntity": "D_Liike"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "D_liike": {
+			          "Target": {
+			            "Entity": "D_liike"
+			          }
+			        },
+			        "D_liike.osoite": {
+			          "Target": {
+			            "Entity": "D_liike.osoite"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "D_liike.osoite"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "D_liike"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "D_liike.osoite"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "D_liikes_are_in_osoites"
+			        }
+			      ]
+			    },
+			    "F_alykellot_is_alkuperäinen_osa_true": {
+			      "Binding": {
+			        "ConceptualEntity": "F_Alykellot"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_alykellot": {
+			          "Target": {
+			            "Entity": "F_alykellot"
+			          }
+			        },
+			        "F_alykellot.alkuperäinen_osa_true_false": {
+			          "Target": {
+			            "Entity": "F_alykellot.alkuperäinen_osa_true_false"
+			          }
+			        }
+			      },
+			      "Conditions": [
+			        {
+			          "Target": {
+			            "Role": "F_alykellot.alkuperäinen_osa_true_false"
+			          },
+			          "Operator": "Equals",
+			          "Value": {
+			            "Boolean": [
+			              true
+			            ]
+			          }
+			        }
+			      ],
+			      "Phrasings": [
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "F_alykellot"
+			            },
+			            "Adjectives": [
+			              {
+			                "alkuperäinen osa true": {
+			                  "State": "Generated"
+			                }
+			              },
+			              {
+			                "alkuperäinen-osa-true": {
+			                  "State": "Generated"
+			                }
+			              },
+			              {
+			                "false": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ]
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "some_F_alykellots_are_alkuperäinen_osa_true_F_alykellots"
+			        }
+			      ]
+			    },
+			    "F_puhelimet_is_alkuperäinen_osa_true": {
+			      "Binding": {
+			        "ConceptualEntity": "F_Puhelimet"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_puhelimet": {
+			          "Target": {
+			            "Entity": "F_puhelimet"
+			          }
+			        },
+			        "F_puhelimet.alkuperäinen_osa_true_false": {
+			          "Target": {
+			            "Entity": "F_puhelimet.alkuperäinen_osa_true_false"
+			          }
+			        }
+			      },
+			      "Conditions": [
+			        {
+			          "Target": {
+			            "Role": "F_puhelimet.alkuperäinen_osa_true_false"
+			          },
+			          "Operator": "Equals",
+			          "Value": {
+			            "Boolean": [
+			              true
+			            ]
+			          }
+			        }
+			      ],
+			      "Phrasings": [
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "F_puhelimet"
+			            },
+			            "Adjectives": [
+			              {
+			                "alkuperäinen osa true": {
+			                  "State": "Generated"
+			                }
+			              },
+			              {
+			                "alkuperäinen-osa-true": {
+			                  "State": "Generated"
+			                }
+			              },
+			              {
+			                "false": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ]
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "some_F_puhelimets_are_alkuperäinen_osa_true_F_puhelimets"
+			        }
+			      ]
+			    },
+			    "F_puhelimet_has_D_malli": {
+			      "Binding": {
+			        "ConceptualEntity": "F_Puhelimet"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_puhelimet": {
+			          "Target": {
+			            "Entity": "F_puhelimet"
+			          }
+			        },
+			        "D_malli": {
+			          "Target": {
+			            "Entity": "D_malli"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_puhelimet"
+			            },
+			            "Object": {
+			              "Role": "D_malli"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_puhelimets_have_D_mallis"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "D_malli"
+			            },
+			            "Object": {
+			              "Role": "F_puhelimet"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "D_mallis_have_F_puhelimets"
+			        }
+			      ]
+			    },
+			    "F_alykellot_has_D_liike": {
+			      "Binding": {
+			        "ConceptualEntity": "F_Alykellot"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_alykellot": {
+			          "Target": {
+			            "Entity": "F_alykellot"
+			          }
+			        },
+			        "D_liike": {
+			          "Target": {
+			            "Entity": "D_liike"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_alykellot"
+			            },
+			            "Object": {
+			              "Role": "D_liike"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_alykellots_have_D_liikes"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "D_liike"
+			            },
+			            "Object": {
+			              "Role": "F_alykellot"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "D_liikes_have_F_alykellots"
+			        }
+			      ]
+			    },
+			    "F_alykellot_has_D_osat": {
+			      "Binding": {
+			        "ConceptualEntity": "F_Alykellot"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_alykellot": {
+			          "Target": {
+			            "Entity": "F_alykellot"
+			          }
+			        },
+			        "D_osat": {
+			          "Target": {
+			            "Entity": "D_osat"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_alykellot"
+			            },
+			            "Object": {
+			              "Role": "D_osat"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_alykellots_have_D_osats"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "D_osat"
+			            },
+			            "Object": {
+			              "Role": "F_alykellot"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "D_osats_have_F_alykellots"
+			        }
+			      ]
+			    },
+			    "F_alykellot_has_D_merkki": {
+			      "Binding": {
+			        "ConceptualEntity": "F_Alykellot"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_alykellot": {
+			          "Target": {
+			            "Entity": "F_alykellot"
+			          }
+			        },
+			        "D_merkki": {
+			          "Target": {
+			            "Entity": "D_merkki"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_alykellot"
+			            },
+			            "Object": {
+			              "Role": "D_merkki"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_alykellots_have_D_merkkis"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "D_merkki"
+			            },
+			            "Object": {
+			              "Role": "F_alykellot"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "D_merkkis_have_F_alykellots"
+			        }
+			      ]
+			    },
+			    "F_alykellot_has_D_korjattava_tuote": {
+			      "Binding": {
+			        "ConceptualEntity": "F_Alykellot"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_alykellot": {
+			          "Target": {
+			            "Entity": "F_alykellot"
+			          }
+			        },
+			        "D_korjattava_tuote": {
+			          "Target": {
+			            "Entity": "D_korjattava_tuote"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_alykellot"
+			            },
+			            "Object": {
+			              "Role": "D_korjattava_tuote"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_alykellots_have_D_korjattava_tuotes"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "D_korjattava_tuote"
+			            },
+			            "Object": {
+			              "Role": "F_alykellot"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "D_korjattava_tuotes_have_F_alykellots"
+			        }
+			      ]
+			    },
+			    "F_alykellot_has_D_malli": {
+			      "Binding": {
+			        "ConceptualEntity": "F_Alykellot"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "F_alykellot": {
+			          "Target": {
+			            "Entity": "F_alykellot"
+			          }
+			        },
+			        "D_malli": {
+			          "Target": {
+			            "Entity": "D_malli"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "F_alykellot"
+			            },
+			            "Object": {
+			              "Role": "D_malli"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "F_alykellots_have_D_mallis"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "D_malli"
+			            },
+			            "Object": {
+			              "Role": "F_alykellot"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "D_mallis_have_F_alykellots"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.0.0"
+			    }
+			  }
+			}
+		contentType: json
+

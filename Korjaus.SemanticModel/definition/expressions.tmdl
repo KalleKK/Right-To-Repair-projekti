@@ -1,0 +1,28 @@
+expression PuhelimetOsat =
+		let
+		    Lähde = F_Puhelimet,
+		    #"Poistettu muut sarakkeet" = Table.SelectColumns(Lähde,{"Osa"}),
+		    #"Poistettu kaksoiskappaleet" = Table.Distinct(#"Poistettu muut sarakkeet")
+		in
+		    #"Poistettu kaksoiskappaleet"
+	lineageTag: c985dd51-02bd-4ad8-bd52-491c7506efff
+	queryGroup: Aputaulut
+
+	annotation PBI_NavigationStepName = Siirtyminen
+
+	annotation PBI_ResultType = Table
+
+expression AlykelloOsat =
+		let
+		    Lähde = F_Alykellot,
+		    #"Poistettu muut sarakkeet" = Table.SelectColumns(Lähde,{"Osa"}),
+		    #"Poistettu kaksoiskappaleet" = Table.Distinct(#"Poistettu muut sarakkeet")
+		in
+		    #"Poistettu kaksoiskappaleet"
+	lineageTag: f8bad172-88f6-4184-ac79-7a1f63446678
+	queryGroup: Aputaulut
+
+	annotation PBI_NavigationStepName = Siirtyminen
+
+	annotation PBI_ResultType = Table
+

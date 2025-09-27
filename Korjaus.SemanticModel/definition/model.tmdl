@@ -1,0 +1,29 @@
+model Model
+	culture: fi-FI
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: fi-FI
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+queryGroup Aputaulut
+
+	annotation PBI_QueryGroupOrder = 0
+
+annotation PBI_QueryOrder = ["D_Liike","F_Puhelimet","F_Alykellot","D_Osat","PuhelimetOsat","AlykelloOsat"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table D_Liike
+ref table F_Puhelimet
+ref table F_Alykellot
+ref table D_Osat
+ref table ' Mittarit '
+ref table D_Merkki
+ref table D_Malli
+ref table D_KorjattavaTuote
+
+ref cultureInfo fi-FI
+

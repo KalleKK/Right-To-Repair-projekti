@@ -1,0 +1,165 @@
+table F_Alykellot
+	lineageTag: 14f66c90-19ae-4fc4-9693-f8094bf2f01b
+
+	column ID
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: f156ca33-5143-4643-ac83-46a3a4a0d76d
+		summarizeBy: count
+		sourceColumn: ID
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Merkki
+		dataType: string
+		isHidden
+		lineageTag: 14c2e262-b8d2-4e4f-bc37-0adf3a37f369
+		summarizeBy: none
+		sourceColumn: Merkki
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Malli
+		dataType: string
+		isHidden
+		lineageTag: d61b4f63-9c48-44da-aeef-ff3a0ca614f8
+		summarizeBy: none
+		sourceColumn: Malli
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Merkki ja malli'
+		dataType: string
+		isHidden
+		lineageTag: 8f95597b-eb4e-4b5c-b091-89f8d0cf5f43
+		summarizeBy: none
+		sourceColumn: Merkki ja malli
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Osa
+		dataType: string
+		isHidden
+		lineageTag: 2a78658c-ec97-4231-896c-82d6288db44b
+		summarizeBy: none
+		sourceColumn: Osa
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Korjauksenhinta €'
+		dataType: decimal
+		formatString: #,0.###############\ "€";-#,0.###############\ "€";#,0.###############\ "€"
+		lineageTag: dfc12340-9bb7-4aac-a141-b0015fc112b8
+		summarizeBy: sum
+		sourceColumn: Korjauksenhinta €
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"fi-FI"}
+
+	column 'Tuotehinta €'
+		dataType: decimal
+		formatString: #,0.###############\ "€";-#,0.###############\ "€";#,0.###############\ "€"
+		lineageTag: 259ca168-15be-4d32-9022-e7f30d1363e4
+		summarizeBy: sum
+		sourceColumn: Tuotehinta €
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"fi-FI"}
+
+	column 'Älykellonhinta €'
+		dataType: decimal
+		formatString: #,0.###############\ "€";-#,0.###############\ "€";#,0.###############\ "€"
+		lineageTag: 45165139-f02d-4da8-9bd0-9ce1b8791fa4
+		summarizeBy: sum
+		sourceColumn: Älykellonhinta €
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"fi-FI"}
+
+	column 'Vakuutuksen kesto kk'
+		dataType: int64
+		formatString: 0
+		lineageTag: 1517bb90-4603-42b5-ac61-ae9bb4c25bc2
+		summarizeBy: sum
+		sourceColumn: Vakuutuksen kesto kk
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Korjauksen kesto tunneissa'
+		dataType: string
+		lineageTag: 098f4c25-7c94-4406-aa3b-a2c71a2e7915
+		summarizeBy: none
+		sourceColumn: Korjauksen kesto tunneissa
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Alkuperäinen osa true/false'
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: e4441c26-b7c6-415c-b8f0-f41700d52e8d
+		summarizeBy: none
+		sourceColumn: Alkuperäinen osa true/false
+
+		annotation SummarizationSetBy = Automatic
+
+	column LiikeID
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 9564b1ce-7da7-450c-a342-5ff70370e7c6
+		summarizeBy: none
+		sourceColumn: LiikeID
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column KorjattavaTuote
+		dataType: string
+		isHidden
+		lineageTag: 4503a23d-73ef-47cd-acec-762ec996c69d
+		summarizeBy: none
+		sourceColumn: KorjattavaTuote
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	partition F_Alykellot = m
+		mode: import
+		source =
+				let
+				    Lähde = Excel.Workbook(File.Contents("C:\Users\Kalle\OneDrive\Työpöytä\Työt\POWERBI TYÖT\Työt SmartLeanille\puhelinkorjaus\DataPuhelimista.xlsx"), null, true),
+				    Table4_Table = Lähde{[Item="Table4",Kind="Table"]}[Data],
+				    #"Muutettu tyyppi" = Table.TransformColumnTypes(Table4_Table,{{"ID", Int64.Type}, {"Liike", type text}, {"Merkki", type text}, {"Malli", type text}, {"Merkki ja malli", type text}, {"Liike sekä merkki ja malli", type text}, {"Tuote", type text}, {" Korjauksenhinta €", Int64.Type}, {"Tuotehinta €", Int64.Type}, {"Älykellonhinta €", Int64.Type}, {"Vakuutuksen kesto kk", Int64.Type}, {"Korjauksen kesto tunneissa", type any}, {"Alkuperäinen osa true/false", type logical}}),
+				    #"Poistettu sarakkeet" = Table.RemoveColumns(#"Muutettu tyyppi",{"Liike sekä merkki ja malli"}),
+				    #"Hinta kentät desimaaleiksi" = Table.TransformColumnTypes(#"Poistettu sarakkeet",{{" Korjauksenhinta €", Currency.Type}, {"Tuotehinta €", Currency.Type}, {"Älykellonhinta €", Currency.Type}}),
+				    #"Yhdistetyt kyselyt" = Table.NestedJoin(#"Hinta kentät desimaaleiksi", {"Liike"}, D_Liike, {"Liike"}, "D_Liike", JoinKind.LeftOuter),
+				    #"Laajennettu D_Liike" = Table.ExpandTableColumn(#"Yhdistetyt kyselyt", "D_Liike", {"Indeksi"}, {"LiikeID"}),
+				    #"Poistettu sarakkeet1" = Table.RemoveColumns(#"Laajennettu D_Liike",{"Liike"}),
+				    #"Nimetty sarakkeet uudelleen" = Table.RenameColumns(#"Poistettu sarakkeet1",{{"Tuote", "Osa"}}),
+				    #"Lisätty mukautettu" = Table.AddColumn(#"Nimetty sarakkeet uudelleen", "KorjattavaTuote", each "Älykello"),
+				    #"Muutettu tyyppi1" = Table.TransformColumnTypes(#"Lisätty mukautettu",{{"KorjattavaTuote", type text}}),
+				    #"Sarakkeiden järjestystä muutettu" = Table.ReorderColumns(#"Muutettu tyyppi1",{"ID", "Merkki", "Malli", "Merkki ja malli", "Osa", " Korjauksenhinta €", "Tuotehinta €", "Älykellonhinta €", "Vakuutuksen kesto kk", "Korjauksen kesto tunneissa", "Alkuperäinen osa true/false", "LiikeID", "KorjattavaTuote"}),
+				    #"Nimetty sarakkeet uudelleen1" = Table.RenameColumns(#"Sarakkeiden järjestystä muutettu",{{" Korjauksenhinta €", "Korjauksenhinta €"}})
+				in
+				    #"Nimetty sarakkeet uudelleen1"
+
+	annotation PBI_NavigationStepName = Siirtyminen
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,284 @@
+table ' Mittarit '
+	lineageTag: c150766b-60f1-4dee-be67-0e3fa55b4e93
+
+	measure OsatValittuTarkistuts = ```
+			
+			
+			CALCULATE(COUNTROWS(F_Alykellot), 
+			    
+			    CROSSFILTER(D_Osat[Osa], F_Alykellot[Osa], Both)
+			) 
+			
+			+ 
+			
+			CALCULATE(COUNTROWS(F_Puhelimet), 
+			    
+			    CROSSFILTER(D_Osat[Osa], F_Puhelimet[Osa], Both)
+			)
+			```
+		formatString: 0
+		displayFolder: Apumittarit
+		lineageTag: e3f1e789-9f48-4122-943b-1218cf7f7cae
+
+	measure MerkkiValittuTarkistus = ```
+			
+			
+			CALCULATE(COUNTROWS(F_Alykellot),
+			    
+			    F_Alykellot[Korjauksenhinta €] > 0,
+			        
+			    CROSSFILTER(D_Merkki[Merkki], F_Alykellot[Merkki], Both)
+			) 
+			
+			+
+			
+			CALCULATE(COUNTROWS(F_Puhelimet), 
+			    
+			    F_Puhelimet[Korjauksenhinta €] > 0, 
+			    
+			    CROSSFILTER(D_Merkki[Merkki], F_Puhelimet[Merkki], Both)
+			)
+			```
+		formatString: 0
+		displayFolder: Apumittarit
+		lineageTag: f4bac14c-dd84-4ab8-aeaf-8eae433ad235
+
+	measure MalliValittuTarkistus = ```
+			
+			
+			CALCULATE(COUNTROWS(F_Alykellot), 
+			    
+			    F_Alykellot[Korjauksenhinta €] > 0,
+			    
+			    CROSSFILTER(D_Malli[Merkki ja malli], F_Alykellot[Merkki ja malli], Both)
+			
+			) 
+			
+			+ 
+			
+			CALCULATE(COUNTROWS(F_Puhelimet),
+			    
+			    F_Puhelimet[Korjauksenhinta €] > 0, 
+			    
+			    CROSSFILTER(D_Malli[Merkki ja malli], F_Puhelimet[Merkki ja malli], Both)
+			)
+			```
+		formatString: 0
+		displayFolder: Apumittarit
+		lineageTag: 18e356b5-4ed5-4aaf-be0f-8694d1973e97
+
+	measure KorjattavaTuoteValittuTarkistuts = ```
+			
+			
+			CALCULATE(COUNTROWS(F_Alykellot), 
+			    
+			    CROSSFILTER(D_KorjattavaTuote[KorjattavaTuote], F_Alykellot[KorjattavaTuote], Both)
+			) 
+			
+			+ 
+			
+			CALCULATE(COUNTROWS(F_Puhelimet), 
+			    
+			    CROSSFILTER(D_KorjattavaTuote[KorjattavaTuote], F_Puhelimet[KorjattavaTuote], Both)
+			)
+			```
+		formatString: 0
+		displayFolder: Apumittarit
+		lineageTag: 51de8b74-0388-4344-836b-a4fb86d6ce2f
+
+	measure TuotteenHinta =
+			
+			
+			MAX(F_Alykellot[Älykellonhinta €]) + MAX(F_Puhelimet[Puhelimenhinta €])
+		formatString: #,0\ "€";-#,0\ "€";#,0\ "€"
+		lineageTag: dd7b76c3-9c79-4a83-aa97-559d1b79903e
+
+		annotation PBI_FormatHint = {"currencyCulture":"fi-FI"}
+
+	measure KorjauksenHinta =
+			
+			
+			AVERAGE(F_Alykellot[Korjauksenhinta €]) + AVERAGE(F_Puhelimet[Korjauksenhinta €])
+		formatString: #,0\ "€";-#,0\ "€";#,0\ "€"
+		lineageTag: f5d9840a-f0f3-4ee9-9b77-6e84fd10ae51
+
+		annotation PBI_FormatHint = {"currencyCulture":"fi-FI"}
+
+	measure KorjauksenHintaTuotteesta% =
+			
+			
+			DIVIDE([KorjauksenHinta], [TuotteenHinta])
+		formatString: 0.00\ %;-0.00\ %;0.00\ %
+		lineageTag: 82ebfd23-d0d5-47bd-8753-249afcf755d5
+
+	measure VakuutuksenKesto = ```
+			
+			
+			var VakuutuksenKesto = MIN(F_Alykellot[Vakuutuksen kesto kk]) + MIN(F_Puhelimet[Vakuutuksen kesto kk])
+			
+			return
+			
+			IF(VakuutuksenKesto > 0, 
+			
+			    VakuutuksenKesto & " kk",
+			
+			    BLANK()
+			)
+			```
+		lineageTag: e767699f-1180-4510-a2c3-c9e27b78798b
+
+	measure KaytetaankoAlkuperaisiaOsia = ```
+			
+			
+			var AlkuperainenOsaAlykello = SELECTEDVALUE(F_Alykellot[Alkuperäinen osa true/false])
+			
+			var AlkuperainenOsaPuhelin = SELECTEDVALUE(F_Puhelimet[Alkuperäinen osa true/false])
+			
+			
+			return
+			
+			IF([OnkoValittujaRiveja] > 0,
+			
+			    IF(AlkuperainenOsaAlykello = TRUE() || AlkuperainenOsaPuhelin = TRUE(), 
+			
+			        "Kyllä",
+			        
+			        "Ei"
+			    ),
+			
+			    BLANK()
+			)
+			```
+		lineageTag: c1dcdec8-6ac5-4863-a966-0c678555930c
+
+	measure KorjauksenHintaTyhjatArvotPois = ```
+			
+			
+			IF([OnkoValittujaRiveja] > 0,
+			    
+			    COALESCE([KorjauksenHinta], "-")
+			)
+			```
+		formatString: #,0\ "€";-#,0\ "€";#,0\ "€"
+		lineageTag: ec62ca40-db44-4a50-953c-96518a3ac545
+
+	measure OnkoValittujaRiveja =
+			
+			
+			COUNTROWS(F_Alykellot) + COUNTROWS(F_Puhelimet)
+		formatString: 0
+		displayFolder: Apumittarit
+		lineageTag: 6f3d31ed-97bd-452c-9639-36167b916bdf
+
+	measure KuinkaMonelleMallilleLoytyyKorjauksenHinta = ```
+			
+			
+			CALCULATE(DISTINCTCOUNT(F_Puhelimet[Malli]),
+			
+			    F_Puhelimet[Korjauksenhinta €] > 0,
+			    
+			    ALLEXCEPT(F_Puhelimet, D_Liike, D_KorjattavaTuote)
+			) 
+			
+			+
+			
+			CALCULATE(DISTINCTCOUNT(F_Alykellot[Malli]),
+			
+			    F_Alykellot[Korjauksenhinta €] > 0,
+			    
+			    ALLEXCEPT(F_Alykellot, D_Liike, D_KorjattavaTuote)
+			)
+			```
+		formatString: 0
+		lineageTag: 3a25ffa8-dd57-425b-8f70-e41f0017dc8b
+
+	measure SivuOtsikko =
+			
+			
+			"Älyä Korjaukseen - Älylaitteiden korjauspalveluiden tarjoajat ja sijainti, korjauksen saatavuus ja kesto, hinnat palvelulle ja varaosille sekä takuuehdot"
+		lineageTag: ca341933-13c2-4aea-ab81-7f83bf02475f
+
+	measure 'Valittu liike' = SELECTEDVALUE(D_Liike[Liike])
+		lineageTag: 8c26d3ff-ee23-4b8e-9039-a2c770ef0bb7
+
+	measure KorjauksenKesto = ```
+			
+			
+			var KorjauksenKesto = MIN(F_Alykellot[Korjauksen kesto tunneissa]) + MIN(F_Puhelimet[Korjauksen kesto tunneissa])
+			
+			return
+			
+			IF(KorjauksenKesto > 0, 
+			
+			    KorjauksenKesto & " tuntia",
+			
+			    BLANK()
+			)
+			```
+		lineageTag: 9264bc01-8e59-4d47-b336-18375e3b6b6f
+
+	measure OsanHinta =
+			
+			
+			AVERAGE(F_Alykellot[Tuotehinta €]) + AVERAGE(F_Puhelimet[Tuotehinta €])
+		formatString: #,0.###############\ "€";-#,0.###############\ "€";#,0.###############\ "€"
+		lineageTag: 4c71020c-b350-4dfe-a7a7-07a736efb3ad
+
+		annotation PBI_FormatHint = {"currencyCulture":"fi-FI"}
+
+	measure TaulunOtsikko =
+			
+			
+			SELECTEDVALUE(D_Osat[Osa]) & ": korjauksen hintatiedot ja muut tiedot"
+		lineageTag: f265c76f-7cb0-4bdb-83b5-c7325937ee63
+
+	measure OnkoRiveja =
+			
+			
+			COUNTROWS(F_Alykellot) + COUNTROWS(F_Puhelimet)
+		formatString: 0
+		displayFolder: Apumittarit
+		lineageTag: 6ca09da6-0632-4aed-851b-59347688cabe
+
+	measure OnkoValittuMalliTsekki =
+			
+			
+			IF([OnkoRiveja] > 0,
+			
+			    BLANK(),
+			
+			    "Valitse malli!"
+			)
+		displayFolder: Apumittarit
+		lineageTag: 270fda38-6663-43d1-857b-a4eaeaf25d42
+
+	measure PalauteTeksti =
+			
+			
+			"Palaute" & " " & UNICHAR(129534)
+		displayFolder: Apumittarit
+		lineageTag: 674a11d3-ba0d-4310-a044-ead4cea744f1
+
+	measure InfoTeksti =
+			
+			
+			"Info" & " " & UNICHAR(10067)
+		displayFolder: Apumittarit
+		lineageTag: 6dd26381-132c-4f25-9b71-1d414d78258a
+
+	column Value
+		isHidden
+		formatString: 0
+		lineageTag: 090492af-ecdc-42a6-b46d-3fb33bc3445f
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Value]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition ' Mittarit ' = calculated
+		mode: import
+		source = {BLANK()}
+
+	annotation PBI_Id = 00f70ac19b2744afb40a3f9d778eeb47
+

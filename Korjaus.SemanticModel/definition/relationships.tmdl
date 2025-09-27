@@ -1,0 +1,40 @@
+relationship d2982bf8-4685-536a-235c-0ac70a88c203
+	fromColumn: F_Puhelimet.LiikeID
+	toColumn: D_Liike.Indeksi
+
+relationship ee7dfc5a-0160-c4ef-0139-a2ea3240d9f5
+	fromColumn: F_Alykellot.LiikeID
+	toColumn: D_Liike.Indeksi
+
+relationship AutoDetected_794db5d3-d78c-430d-be14-d93b837f413b
+	fromColumn: F_Puhelimet.Osa
+	toColumn: D_Osat.Osa
+
+relationship AutoDetected_8ae5338e-3360-4792-8568-53468f6b7693
+	fromColumn: F_Alykellot.Osa
+	toColumn: D_Osat.Osa
+
+relationship 4abbb34b-bb93-d1a4-c479-1cd32b0543e5
+	fromColumn: F_Puhelimet.Merkki
+	toColumn: D_Merkki.Merkki
+
+relationship a782921b-4581-42c3-7608-da2238097893
+	fromColumn: F_Alykellot.Merkki
+	toColumn: D_Merkki.Merkki
+
+relationship 7246e1f4-5e66-c887-83d5-757d80c837c5
+	fromColumn: F_Alykellot.KorjattavaTuote
+	toColumn: D_KorjattavaTuote.KorjattavaTuote
+
+relationship 5c0a1c3f-0a53-de7b-646c-71decf5f2efe
+	fromColumn: F_Puhelimet.KorjattavaTuote
+	toColumn: D_KorjattavaTuote.KorjattavaTuote
+
+relationship 0075f7ce-15f3-1396-7e35-737e48cec9d8
+	fromColumn: F_Puhelimet.'Merkki ja malli'
+	toColumn: D_Malli.'Merkki ja malli'
+
+relationship ffd2d657-47bb-4168-8faf-d04d763f4ab9
+	fromColumn: F_Alykellot.'Merkki ja malli'
+	toColumn: D_Malli.'Merkki ja malli'
+

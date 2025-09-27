@@ -1,0 +1,20 @@
+table D_KorjattavaTuote
+	lineageTag: e338f346-ac35-4a56-9d61-03ba78d8441f
+
+	column KorjattavaTuote
+		lineageTag: fd586e55-003a-4480-83e5-081c951a575a
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: F_Alykellot[KorjattavaTuote]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition D_KorjattavaTuote = calculated
+		mode: import
+		source =
+				
+				
+				DISTINCT(UNION(DISTINCT(F_Alykellot[KorjattavaTuote]), DISTINCT(F_Puhelimet[KorjattavaTuote])))
+
+	annotation PBI_Id = 03b02e82f3c54798a04cebe83ed00401
+

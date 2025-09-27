@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
+  "name": "13e0e3a149dd03d7e922",
+  "position": {
+    "x": 16,
+    "y": 23.999999999999986,
+    "z": 1000,
+    "height": 824,
+    "width": 280
+  },
+  "visualGroup": {
+    "displayName": "Suodatukset",
+    "groupMode": "ScaleMode"
+  },
+  "parentGroupName": "c65578f639d8120a4d55"
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Korjaus"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "0e2f8295-4fdc-472d-98e2-1c93b9e3476b"
+  }
+}
